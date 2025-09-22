@@ -12,21 +12,21 @@ void setname(string n)
 {
     name = n;
 }
-string getname()
-{
-    return name; 
-}
 void setmarks(int m)
 {
     marks= m;
 }
-int getmarks()
-{
-    return marks;
-}
 void setattendance(double a)
 {
     attendance=a;
+}
+string getname()
+{
+    return name; 
+}
+int getmarks()
+{
+    return marks;
 }
 double getattendance()
 {
